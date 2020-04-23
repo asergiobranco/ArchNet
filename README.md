@@ -2,6 +2,17 @@
 
 ## Setup
 
+In order to intall the package, just download it and run (inside the folder):
+
+`python setup.py intall`
+
+To install all the dependencies
+
+`pip install -r requirements.txt`
+
+
+## Documentation
+
 You can access the entire documentation by running the following:
 
 <center>
