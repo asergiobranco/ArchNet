@@ -1,0 +1,2 @@
+global-include *.md *.html *.css *.svg *.js
+recursive-include ArchNet/html_docs/*

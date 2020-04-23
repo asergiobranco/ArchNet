@@ -5,7 +5,7 @@
 You can access the entire documentation by running the following:
 
 <center>
-  
+
 `python -m ArchNet --read_docs`
 
 </center>

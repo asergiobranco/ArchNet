@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="../css/generic.css">
+    <script src="js/jquery.js"></script>
+  </head>
+  <body>
+    <div class="menu">
+      <div class="opt" data-iframe="white">
+        <img src="images/paper_smashicons.svg" />
+        <span>White Paper</span>
+      </div>
+      <div class="opt" data-iframe="ArchNetServer">
+        <img src="images/server_smashicons.svg" />
+        <span>Server</span>
+      </div>
+      <div class="opt">
+        <img src="images/microservice_surang.svg" />
+        <span>Microservice</span>
+      </div>
+      <div class="opt" data-iframe="client">
+        <img src="images/client_surang.svg" />
+        <span>Client</span>
+      </div>
+      <div class="opt">
+        <img src="images/snippets_freepik.svg" />
+        <span>Snippet</span>
+      </div>
+    </div>
+    <div class="document">
+      <iframe src="ArchNetServer.html"></iframe>
+    </div>
+  <script>
+    $(document).on( "click", ".opt", function(){
+      var src = $(this).data("iframe")
+
+      $(".document > iframe").attr("src", src + ".html")
+    });
+  </script>
+  </body>
+</html>
